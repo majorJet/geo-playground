@@ -1,0 +1,30 @@
+{
+  "name": "geo-playground",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cesium": "^1.140.0",
+    "leaflet": "^1.9.4",
+    "maplibre-gl": "^5.23.0",
+    "vue": "^3.5.32",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.9",
+    "vite-plugin-cesium": "^1.2.23",
+    "vue-tsc": "^3.2.7"
+  }
+}
